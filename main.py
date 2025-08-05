@@ -9,3 +9,5 @@ def read_root():
 @app.get("/hello/{name}")
 def hello(name: str):
     return {"greeting": f"Hello, {name}!"}
+
+print("Hi")
