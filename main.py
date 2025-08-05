@@ -10,8 +10,6 @@ def read_root():
 def hello(name: str):
     return {"greeting": f"Hello, {name}!"}
 
-print("Hi")
-
 if __name__ == "__main__":
     import uvicorn
     port = int(os.environ.get("PORT", 8000))
